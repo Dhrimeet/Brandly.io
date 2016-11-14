@@ -62,17 +62,52 @@ body {
     background-color: rgba(0, 0, 0, 0.3);
     z-index: 4; }
   .pic-container:before {
-    content: 'Men';
+    content: 'Noor';
     position: absolute;
     left: 10px;
     top: 10px;
     width: 260px;
     height: 280px;
+    padding: 2px;
     border: 3px solid #fff;
     z-index: 5;
     font-size: 25px;
     padding: 100px;
     color: white;
     text-align: center; }
+
+#thirdslide .trending {
+  margin-left: 15em;
+  border-top: 2px solid red;
+  border-bottom: 2px solid red;
+  display: inline-flex; }
+#thirdslide .size {
+  height: 28em;
+  width: 35em;
+  margin: 4em 0em 0 5em; }
+#thirdslide .title {
+  color: red;
+  margin-top: 4em; }
+#thirdslide .clr {
+  color: lightgrey; }
+#thirdslide .shirtsize {
+  background-color: transparent;
+  border-top-color: #000;
+  border-bottom-color: #000;
+  border-right-color: #000;
+  border-left-color: #000;
+  color: #000;
+  width: 5em;
+  height: 2.5em;
+  line-height: 1em; }
+  #thirdslide .shirtsize:hover {
+    background-color: #000;
+    color: #fff; }
+#thirdslide .shop {
+  border-top-color: #000;
+  border-bottom-color: #000;
+  margin-top: 1em;
+  border-right-color: #000;
+  border-left-color: #000; }
 
 /*# sourceMappingURL=app.css.map */

@@ -77,12 +77,13 @@
   }
 
   &:before {
-    content: 'Men';
+    content: 'Noor';
     position: absolute;
     left: 10px;
     top: 10px;
     width: 260px;
     height: 280px;
+    padding: 2px;
     border: 3px solid #fff;
     z-index: 5;
     font-size: 25px;
@@ -90,4 +91,50 @@
     color: white;
     text-align: center;
   }
+}
+
+
+#thirdslide{
+  .trending{
+    margin-left: 15em;
+   border-top: 2px solid red;
+   border-bottom: 2px solid red;
+   display: inline-flex;
+  }
+  .size{
+    height: 28em;
+    width: 35em;
+    margin: 4em 0em 0 5em;
+
+  }
+  .title{
+    color: red;
+    margin-top: 4em;
+  }
+  .clr{
+    color: lightgrey;
+  }
+  .shirtsize{
+    background-color: transparent;
+    border-top-color: #000;
+    border-bottom-color: #000;
+    border-right-color: #000;
+    border-left-color: #000;
+    color:#000;
+    width: 5em;
+    height: 2.5em;
+    line-height: 1em;
+
+      &:hover{
+        background-color: #000;
+        color: #fff;
+      }
+    }
+   .shop{
+     border-top-color: #000;
+     border-bottom-color: #000;
+     margin-top: 1em;
+     border-right-color: #000;
+     border-left-color: #000;
+   }
 }
